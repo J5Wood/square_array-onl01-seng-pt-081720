@@ -10,4 +10,3 @@ end
 
 new_collect_array = []
 new_collect_array = array.collect { |x| x**2 }
-  
