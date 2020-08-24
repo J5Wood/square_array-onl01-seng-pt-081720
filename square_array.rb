@@ -8,4 +8,5 @@ def square_array(array)
     new_array << number
     binding.pry
   end
+  new_array
 end
