@@ -10,6 +10,7 @@ def square_array(array)
   new_array
 end
 
+test_array = [10,12,20]
 new_collect_array = []
-new_collect_array = array.collect { |x| x**2 }
+new_collect_array = test_array.collect { |x| x**2 }
 binding.pry
